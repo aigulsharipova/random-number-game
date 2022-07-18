@@ -1,6 +1,11 @@
 body {
   background-image: url('./photo.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }
 h1{
   color: white;
+  font-size: 60px;
+  text-align: center;
 }
