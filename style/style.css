@@ -4,8 +4,11 @@ body {
   background-repeat: no-repeat;
   min-height: 100vh;
 }
-h1{
+h1 {
   color: white;
   font-size: 60px;
+  text-align: center;
+}
+div {
   text-align: center;
 }
