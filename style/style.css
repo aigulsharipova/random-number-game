@@ -36,3 +36,9 @@ h3 {
   border-radius: 20px;
   border: none;
 }
+@media all and (max-width: 800px){
+  .container{
+    flex-direction: column;
+    height: 100vh;
+  }
+}
