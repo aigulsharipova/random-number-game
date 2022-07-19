@@ -22,3 +22,12 @@ h3 {
   width: 40%;
   border: 3px solid black;
 }
+#btn {
+  background-color: black;
+  font-size: 15px;
+  color: aliceblue;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  border: none;
+}
