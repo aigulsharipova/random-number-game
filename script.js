@@ -19,5 +19,21 @@ else if (isNaN(userNumber)) {
     text: 'Write the number',
   })
 }
+else {
+  if (userNumber < answer) {
+    Swal.fire('Biggest!')
+  } else if (userNumber > answer) {
+    Swal.fire('Smaller!')
+  }
+  else {
+    Swal.fire({
+      title: 'Congratulation!',
+      imageUrl: './style/win.jpg',
+      imageWidth: 400,
+      imageHeight: 200,
+      imageAlt: 'Custom image',
+    })
+  }
+}
 
 }
