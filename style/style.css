@@ -11,11 +11,10 @@ h1 {
 }
 div {
   text-align: center;
-  background-color: black
+  background-color: rgb(215, 217, 211);
 }
 h3 {
   font-size: 30px;
-  color: white;
 }
 #guess {
   padding: 5px;
