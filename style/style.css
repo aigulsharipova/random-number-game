@@ -11,8 +11,15 @@ h1 {
 }
 div {
   text-align: center;
-  background-color: aliceblue;
+  background-color: black
 }
 h3 {
   font-size: 30px;
+  color: white;
+}
+#guess {
+  padding: 5px;
+  font-size: 20px;
+  width: 40%;
+  border: 3px solid black;
 }
