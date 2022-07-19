@@ -9,14 +9,14 @@ h1 {
   font-size: 60px;
   text-align: center;
 }
-div {
+#game {
   text-align: center;
   background-color: rgb(215, 217, 211);
   border-radius: 20px;
   height: 250px;
   width: 500px;
   margin-top: 150px;
-  margin-left: 38%
+  margin-left: 35%
 }
 h3 {
   font-size: 30px;

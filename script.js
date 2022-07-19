@@ -2,6 +2,11 @@ let myNumber = document.querySelector('#guess');
 let button = document.querySelector('#btn');
 const answer = Math.floor(Math.random()*20)+1;
 
+myNumber.addEventListener('keypress', function(e) {
+  if (e.keyCode === 13)  
+    play()
+})
+
 button.addEventListener('click', play);
 function play() {
 const userNumber = document.querySelector('#guess').value;
@@ -21,9 +26,10 @@ else if (isNaN(userNumber)) {
 }
 else {
   if (userNumber < answer) {
-    Swal.fire('Biggest!')
-  } else if (userNumber > answer) {
-    Swal.fire('Smaller!')
+    Swal.fire('Biggest!');
+  } 
+  else if (userNumber > answer) {
+    Swal.fire('Smaller!');
   }
   else {
     Swal.fire({
@@ -35,5 +41,4 @@ else {
     })
   }
 }
-
 }
