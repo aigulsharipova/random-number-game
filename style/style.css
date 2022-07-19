@@ -12,6 +12,11 @@ h1 {
 div {
   text-align: center;
   background-color: rgb(215, 217, 211);
+  border-radius: 20px;
+  height: 250px;
+  width: 500px;
+  margin-top: 150px;
+  margin-left: 38%
 }
 h3 {
   font-size: 30px;
